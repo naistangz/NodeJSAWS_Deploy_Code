@@ -1,6 +1,6 @@
 # Running a Node JS Application on AWS EC2 Server 
 
-> Navigate [here](https://github.com/naistangz/Technical_Training/blob/master/docs/Week8_CloudServices/aws.md) for additional information on AWS [TBC]
+> Navigate [here](https://github.com/naistangz/Technical_Training/blob/master/docs/Week8_CloudServices/aws.md) for additional information on AWS [TBC]\
 > [Creating an Instance](ec2Instance.md)
 
 ## Connecting to your Instance
