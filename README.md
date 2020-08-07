@@ -16,7 +16,7 @@ cd NodeJSAWS_Deploy_Code
 ```bash
 $ ssh -i "DevOpsStudents.pem" ubuntu@ec2-54-247-25-118.eu-west-1.compute.amazonaws.com
 ```
-5. If successful, the terminal should run:
+5. If successful, the commands should return:
 ```bash
 Your app is ready and listening on port 3000
 ```
