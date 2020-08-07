@@ -13,6 +13,7 @@ sudo apt-get install nodejs -y
 npm install express
 npm install mongoose
 
-# scp secure transferring copy
-scp -i ~/.ssh/DevOpsStudents.pem -r app/ ubuntu@54.247.25.118:~/app/
+# starting app
+cd /home/ubuntu/app
+node app.js
 
