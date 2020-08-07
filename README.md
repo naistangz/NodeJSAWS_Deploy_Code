@@ -9,5 +9,6 @@
 2. Follow the instructions by typing the commands in Terminal or Git Bash:
 ![connect_to_instance_details](./images/connection_details_instance.png)
 3. Remember to disconnect from your Instance by navigating to **Instance State** then clicking on **Stop** or **Terminate**
-4. If successful, the terminal should run\ `Your app is ready and listening on port 3000`
+4. If successful, the terminal should run:
+ `Your app is ready and listening on port 3000`
 5. Enter your Public IP address.
