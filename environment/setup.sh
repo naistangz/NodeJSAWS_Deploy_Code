@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Linking app folder into ubuntu folder of VM
-ssh -i "DevOpsStudents.pem" ~/PycharmProjects/NodeJSAWS_Deploy_code/app/ ubuntu@ec2-34-242-19-89.eu-west-1.compute.amazonaws.com
+scp -i "DevOpsStudents.pem" ~/PycharmProjects/NodeJSAWS_Deploy_code/app/ ubuntu@ec2-34-242-19-89.eu-west-1.compute.amazonaws.com
 
 # Linking our provision file into ubuntu folder of VM
 scp -i ~/.ssh/DevOpsStudents.pem -r app/ ubuntu@34.242.19.89:~/app/
