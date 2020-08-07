@@ -9,7 +9,6 @@
 1. Create an AWS account [here](https://aws.amazon.com/)
 2. [Launch an Instance](#launch-an-instance)
 3. [Connect to Your Instance](#connecting-to-your-instance)
-4. [Cleaning up your instance](#cleaning-up-your-instance)
 
 ## Launch an Instance
 1. Open the [Amazon EC2 Console](https://console.aws.amazon.com/ec2/)
