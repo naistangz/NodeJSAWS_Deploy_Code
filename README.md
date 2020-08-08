@@ -23,3 +23,13 @@ Your app is ready and listening on port 3000
 6. Enter your Public IP address in the browser.
 7. Remember to disconnect from your Instance by navigating to **Instance State** then clicking on **Stop** or **Terminate**
 
+## Adding Security Groups
+1. Right click on your instance
+2. Navigate to Networking
+3. Click on Change Security Groups
+4. Select Security Group(s) to associate with your instance
+
+## Connecting to your AWS Linux instance using SSH
+## Manual way 
+1. In terminal window, use `ssh` command to connect 
+`ssh -i /path/my-key-pair.pem my-instance-user-name@my-instance-public-dns-name`
