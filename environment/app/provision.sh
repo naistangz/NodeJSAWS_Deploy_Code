@@ -8,13 +8,21 @@ sudo apt-get install nginx -y
 
 # configuring nginx
 sudo unlink /etc/nginx/sites-enabled/default
-sudo rm /etc/nginx/sites-available/default
-
-# creating symbolic link between nginx.default and ubuntu folder of VM
-sudo ln -s /home/ubuntu/environment/app/nginx.default /etc/nginx/sites-available/default
-
+cd /etc/nginx/sites-available
+sudo touch default
+sudo chmod 666 default
+echo "server{
+  listen 80;
+  server_name development.local;
+  location / {
+      proxy_pass http://127.0.0.1:3000;
+  }
+}" >> default
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo systemctl stop nginx
+sudo systemctl start nginx
 # restarting nginx
-sudo service nginx restart
+#sudo service nginx restart
 
 # install node modules
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
