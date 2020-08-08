@@ -22,11 +22,12 @@ sudo apt-get install -y nodejs
 sudo apt-get install npm -y
 
 # Install the npm dependencies
-cd /home/ubuntu/app/app
+cd /home/ubuntu/app
 sudo npm install
-node app.js
-#sudo npm install pm2 -g
+sudo npm install pm2 -g
 
 # pm2 is a process manager, it manages your applications states
-#pm2 stop all
-#pm2 start app.js -f
+pm2 stop all
+pm2 start app.js -f
+node app.js
+
