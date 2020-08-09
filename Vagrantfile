@@ -10,7 +10,6 @@ required_plugins.each do |plugin|
 end
 
 
-
 def set_env vars
   command = <<~HEREDOC
       echo "Setting Environment Variables"
