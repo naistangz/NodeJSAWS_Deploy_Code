@@ -33,9 +33,5 @@ sudo apt-get install npm -y
 cd home/ubuntu/app
 sudo npm install
 sudo npm install pm2 -g
-
-# pm2 is a process manager, it manages your applications states
-pm2 stop all
-pm2 start app.js -f
 node app.js
 
