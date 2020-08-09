@@ -33,3 +33,24 @@ Your app is ready and listening on port 3000
 ## Manual way 
 1. In terminal window, use `ssh` command to connect 
 `ssh -i /path/my-key-pair.pem my-instance-user-name@my-instance-public-dns-name`
+
+# NOTE
+- AWS instance public IP changes, alter `nginx` configuration file to ensure that it runs on correct IP address (setup.sh, provision.sh)
+
+## Error:292
+If `events.js:292` error occurs, type the following:
+```bash
+killall -9 node
+```
+
+Then run app again 
+```bash
+node app.js
+```
+
+## Checklist 
+ -[x] App is running on port 80
+ -[x] Configure vagrant file to get DB VM set up
+ -[x] Get `/posts` working 
+ -[x] Configure `provision.sh` file so that IP address is updated when AWS changes Public IP using `public
+ 
