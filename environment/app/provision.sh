@@ -15,7 +15,7 @@ echo "server{
   listen 80;
   server_name development.local;
   location / {
-      proxy_pass http://127.0.0.1:3000;
+      proxy_pass http:/34.244.97.94:3000;
   }
 }" >> default
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
@@ -30,7 +30,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install npm -y
 
 # Install the npm dependencies
-cd /home/ubuntu/app
+cd home/ubuntu/app
 sudo npm install
 sudo npm install pm2 -g
 
