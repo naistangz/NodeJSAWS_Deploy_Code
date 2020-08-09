@@ -15,7 +15,7 @@ $ git clone git@github.com:naistangz/NodeJSAWS_Deploy_Code.git
 $ cd NodeJSAWS_Deploy_code
 ```
 
-3. Run the file `alias='./setup.sh`
+3. Run the file `alias run='./setup.sh`
 ```bash
 $ run
 ```
