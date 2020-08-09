@@ -1,23 +1,23 @@
 # Running a Node JS Application on AWS EC2 Server 
 
-> Navigate [here](https://github.com/naistangz/Technical_Training/blob/master/docs/Week8_CloudServices/aws.md) for additional information on AWS [TBC]\
+> Navigate [here](https://github.com/naistangz/Technical_Training/blob/master/docs/Week8_CloudServices/aws.md) for additional information on AWS\
 > [Creating an Instance](ec2Instance.md)\
 > [Adding Security Groups](ec2Instance.md)\
 > [What are Node Modules?](node_modules.md)
 
 1. Git clone this repository:
 ```bash
-git@github.com:naistangz/NodeJSAWS_Deploy_Code.git
+$ git clone git@github.com:naistangz/NodeJSAWS_Deploy_Code.git
 ```
 
 2. Navigate to `NodeJSAWS_Deploy_Code` folder:
 ```bash
-cd NodeJSAWS_Deploy_code
+$ cd NodeJSAWS_Deploy_code
 ```
 
 3. Run the file `alias='./setup.sh`
 ```bash
-run
+$ run
 ```
 
 ## Checklist 
