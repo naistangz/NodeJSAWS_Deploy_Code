@@ -34,13 +34,6 @@ Which returns the following:
 Warning: Permanently added 'ec2-198-51-100-1.compute-1.amazonaws.com' (ECDSA) to the list of known hosts.
 ```
 
-## Checklist 
- -[x] App is running on port 80
- -[x] Configure vagrant file to get DB VM set up
- -[x] Set up new AWS EC2 Instance 
- -[x] Get `/posts` working 
- -[x] Configure `provision.sh` file so that IP address is updated when AWS changes Public IP using `public
- 
 # Setting up MongoDB Server
 1. Create `DB` directory
 2. In `DB` directory, create `mongod.service` and `mongo.conf` files
@@ -102,3 +95,12 @@ pm2 start app.js -f
 ```
 
 13. Enter app IP address into browser to check if `/posts` is working
+
+
+## Checklist 
+-[x] App is running on port 80
+-[x] Configure vagrant file to get DB VM set up
+-[x] Set up new AWS EC2 Instance 
+-[x] Get `/posts` working 
+-[x] Configure `provision.sh` file so that IP address is updated when AWS changes Public IP using `public
+ 
