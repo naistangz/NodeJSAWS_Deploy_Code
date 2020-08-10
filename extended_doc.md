@@ -31,3 +31,14 @@ Are you sure you want to continue connecting (yes/no)?
 ```bash
 Warning: Permanently added 'ec2-198-51-100-1.compute-1.amazonaws.com' (ECDSA) to the list of known hosts.
 ```
+
+## Error:292
+If `events.js:292` error occurs, type the following:
+```bash
+killall -9 node
+```
+
+Then run app again 
+```bash
+node app.js
+```
