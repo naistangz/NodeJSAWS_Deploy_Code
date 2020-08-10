@@ -97,10 +97,4 @@ pm2 start app.js -f
 13. Enter app IP address into browser to check if `/posts` is working
 
 
-## Checklist 
--[x] App is running on port 80
--[x] Configure vagrant file to get DB VM set up
--[x] Set up new AWS EC2 Instance 
--[x] Get `/posts` working 
--[x] Configure `provision.sh` file so that IP address is updated when AWS changes Public IP using `public
  
