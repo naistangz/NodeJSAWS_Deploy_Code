@@ -96,5 +96,6 @@ pm2 start app.js -f
 
 13. Enter app IP address into browser to check if `/posts` is working
 
+:taco:
 
  
