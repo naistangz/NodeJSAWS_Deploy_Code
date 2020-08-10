@@ -1,4 +1,4 @@
-# Running a Node JS Application on AWS EC2 Server :taco:
+# Running a Node JS Application on AWS EC2 Server :taco: :taco:
 
 > Navigate [here](https://github.com/naistangz/Technical_Training/blob/master/docs/Week8_CloudServices/aws.md) for additional information on AWS\
 > [Creating an Instance](ec2Instance.md)\
