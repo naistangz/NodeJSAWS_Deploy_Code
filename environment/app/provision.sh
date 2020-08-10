@@ -44,13 +44,13 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install npm -y
 
-# Install the npm dependencies
+# Installs the npm dependencies
+#export DB_HOST=mongodb://ubuntu@54.154.53.144:27017/posts?authSource=admin
+export DB_HOST=mongodb://34.250.34.22:27017/posts
+echo $DB_HOST
+sudo apt-get update
 cd /home/ubuntu/app
-sudo npm install
-
-# Installing pm2 for easier application start and stop
 sudo npm install pm2 -g
+npm install
 pm2 stop all
 pm2 start app.js -f
-#node app.js
-
