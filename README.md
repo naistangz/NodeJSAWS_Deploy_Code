@@ -1,4 +1,4 @@
-# Running a Node JS Application on AWS EC2 Server 
+# Running a Node JS Application on AWS EC2 Server :taco: :taco:
 
 > Navigate [here](https://github.com/naistangz/Technical_Training/blob/master/docs/Week8_CloudServices/aws.md) for additional information on AWS\
 > [Creating an Instance](ec2Instance.md)\
@@ -96,11 +96,6 @@ pm2 start app.js -f
 
 13. Enter app IP address into browser to check if `/posts` is working
 
+:taco:
 
-## Checklist 
--[x] App is running on port 80
--[x] Configure vagrant file to get DB VM set up
--[x] Set up new AWS EC2 Instance 
--[x] Get `/posts` working 
--[x] Configure `provision.sh` file so that IP address is updated when AWS changes Public IP using `public
  
