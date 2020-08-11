@@ -1,4 +1,4 @@
-# Running a Node JS Application on AWS EC2 Server :taco: :taco: :taco: test jenkins 22
+# Running a Node JS Application on AWS EC2 Server :taco: test jenkins #23
 
 > Navigate [here](https://github.com/naistangz/Technical_Training/blob/master/docs/Week8_CloudServices/aws.md) for additional information on AWS\
 > [Creating an Instance](ec2Instance.md)\
@@ -6,6 +6,7 @@
 > [What are Node Modules?](node_modules.md)\
 > Extended documentation [here](extended_doc.md)
 
+# Step 1 
 1. Git clone this repository:
 ```bash
 $ git clone git@github.com:naistangz/NodeJSAWS_Deploy_Code.git
@@ -34,7 +35,7 @@ Which returns the following:
 Warning: Permanently added 'ec2-198-51-100-1.compute-1.amazonaws.com' (ECDSA) to the list of known hosts.
 ```
 
-# Setting up MongoDB Server
+# Step 2 Setting up MongoDB Server
 1. Create `DB` directory
 2. In `DB` directory, create `mongod.service` and `mongo.conf` files
 3. Create `provision.sh` script to install MongoDB
@@ -96,6 +97,9 @@ pm2 start app.js -f
 
 13. Enter app IP address into browser to check if `/posts` is working
 
-:taco:
+## Step 3 Automatically deploying successful changes to our AWS Instance
+1. Create CI job
+2. Create CD job
+3. In AWS add security group with relevant Jenkins IP addresses
 
  
